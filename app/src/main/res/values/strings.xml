@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name">CentinetMonitoreo</string>
+    <string name="str_tvStatus">Estado actual</string>
+    <string name="str_btArmado">Armar</string>
+    <string name="str_btDesarmado">Desarmar</string>
+    <string name="str_btConfigurar">Configurar</string>
+    <string name="str_btSonorousPanic">Sonoro</string>
+    <string name="str_btSilentPanic">Silencioso</string>
+    <string name="str_tvLocation">Nombre</string>
+    <string name="str_tvPass">Número de cuenta</string>
+    <string name="str_tvTeamId">Identificador del equipo</string>
+    <string name="str_tvWaitTime">Espera respuesta</string>
+    <string name="str_tvTeamModel">Modelo</string>
+    <string name="str_tvHourCourse">Uso Horario</string>
+    <string name="frag_home_title">Home</string>
+    <string name="frag_events_title">Eventos</string>
+    <string name="frag_profiles_title">Perfiles</string>
+    <string name="frag_information_title">Información</string>
+    <string name="str_add_profile">Agregar perfil</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="str_btShow">Desplegar</string>
+    <string name="str_btHidden">Ocultar</string>
+    <string name="str_btPgm1">PGM1</string>
+    <string name="str_btPgm2">PGM2</string>
+    <string name="str_btByPass">By Pass</string>
+    <string name="str_btSumaByPass">+</string>
+    <string name="str_btRestaByPass">-</string>
+    <string name="str_bt_fire">Incendio</string>
+    <string name="str_bt_help">Auxilio</string>
+    <string name="str_bt_addProfile">Agregar perfil</string>
+    <string name="title_team_panel">Equipo</string>
+    <string name="title_partition_panel">Partición</string>
+    <string name="title_advanced_panel">Avanzado</string>
+    <string name="str_tvPartition">Partición</string>
+    <string name="str_switchEvents">Eventos de servicio</string>
+    <string name="str_alarmNotifications">Notificaciones Alarma</string>
+    <string name="str_editPanics">Editar Pánicos</string>
+    <string name="str_emptyHistory">Vaciar Historial</string>
+    <string name="str_switchAlternatedCode">Usar Código Alternativo</string>
+    <string name="activity_title_edit_panics">Editar Pánicos</string>
+    <string name ="sms_txt_msg"> ALARMA @ ACTIVADA en pérfil @ desde:</string>
+    <string name ="sms_txt_notified"> Notificación enviada a</string>
+
+    <!-- CreatProfile strings -->
+    <string name="title_pgm_panel">Nombre de PGMs</string>
+    <string name="tv_pgm1">Nombre para PGM 1</string>
+    <string name="tv_pgm2">Nombre para PGM 2</string>
+    <string name="title_zones">Zonas</string>
+    <string name="title_users">Usuarios</string>
+    <string name="str_delete_profile">Eliminar perfil</string>
+
+
+    <!-- Edit Panic Strings -->
+    <string name="str_alarm_sonorous">Alarma sonora</string>
+    <string name="str_alarm_silent">Alarma silenciosa</string>
+    <string name="str_alarm_fire">Alarma Incendio</string>
+    <string name="str_contacts">Contactos</string>
+    <string name="str_name2">Nombre S.O.S 2</string>
+    <string name="str_name3">Nombre S.O.S 3</string>
+
+    <string name="str_date">La fecha de creación es </string>
+
+    <!-- Home strings-->
+    <string name="str_home">Valla a Pérfiles y agregue un pérfil</string>
+    <string name="str_checking_status">Chequeando estado...</string>
+    <string name="str_disable_panic"> Desactivar panico</string>
+
+
+    <!-- Mesagge item strings-->
+    <string name="str_tvMessage">Evento:</string>
+    <string name="str_tvArrived">Arrivo:</string>
+
+    <!-- Dialog box -->
+    <string name="str_tvArmedPresent">Armado presente</string>
+    <string name="str_tvArmedAway">Armado ausente</string>
+    <string name="str_tvEnterUserCode"> Código de usuario para partición:</string>
+    <string name="str_confirm_user_code">Confirmar</string>
+    <string name="str_cancel_user_code">Cancelar</string>
+    <string name="str_bt_bypass">Bypassear Zonas</string>
+    <string name="str_enter_pass">Por favor, ingrese una nueva password</string>
+    <string name="str_login">Escriba su password</string>
+    <string name="str_accept_pass">Aceptar</string>
+    <string name="pass_file">Login </string>
+    <string name="str_error_pass">Password incorrecta</string>
+
+
+
+    <!-- Edit user -->
+    <string name="str_title_edit_user"> Editar usuario</string>
+    <string name="str_tvUserNumber"> Número:</string>
+    <string name="str_tvUserAlias"> Usuario:</string>
+    <string name="err_empty_field_user"> Debe ingresar usuario y número</string>
+
+
+    <!-- Edit zone -->
+    <string name="str_title_edit_zone"> Editar zona</string>
+    <string name="str_tvZoneNumber"> Número:</string>
+    <string name="str_tvZoneAlias"> Zona:</string>
+    <string name="err_empty_field_zone"> Debe ingresar zona y número</string>
+
+
+    <!-- Events -->
+    <string name="event_disarmed"> Desarmado</string>
+    <string name="event_present_armed"> Armado presente</string>
+    <string name="event_away_armed"> Armado ausente</string>
+    <string name="event_parcial_armed"> Armado parcial</string>
+    <string name="event_fire_alarm"> Alarma de Incendio</string>
+    <string name="event_fire_restored"> Restauración de Incendio</string>
+    <string name="event_help_alarm"> Alarma de Auxilio</string>
+    <string name="event_help_restored"> Restauración de Auxilio</string>
+    <string name="event_sonorous_panic"> Pánico Sonoro</string>
+    <string name="event_sonorous_panic_restored"> Restauración de Pánico Sonoro</string>
+    <string name="event_silent_panic"> Pánico Silencioso</string>
+    <string name="event_silent_panic_restored"> Restauración de Pánico Silencioso</string>
+
+    <string name="event_bypass"> Bypass a zona:</string>
+    <string name="event_ready">Partición lista para ser armada</string>
+    <string name="event_not_ready">Partición no está lista para ser armada </string>
+    <string name="event_unrecognized"> No reconocido</string>
+    <string name="event_open_zones">Zonas abiertas:</string>
+    <string name="event_last_update">Última actualización:</string>
+
+
+    <!-- Errors-->
+    <string name="error_connect"> Error de conexión</string>
+    <string name="error_partition_not_ready"> La partición @ no está lista</string>
+    <string name="unknown_state"> Estado desconocido</string>
+    <string name="error_contact_without_number">Este contacto no tiene número registrado</string>
+
+
+    <!-- Notifications -->
+    <string name="title_profile"> Evento en pérfil</string>
+    <string name="title_panel"> Evento en panel </string>
+
+
+
+    <!-- Logs mgs -->
+    <string name="str_not_events"> No hay eventos </string>
+    <string name= "log_disarmed">Partición desarmada por usuario:</string>
+    <string name= "log_armed_present">Armado presente por usuario:</string>
+    <string name= "log_armed_away">Armado ausente por usuario:</string>
+    <string name= "log_armed_parcial">Armado parcial</string>
+    <string name= "log_by_pass_zone">Zona bypasseada</string>
+    <string name= "log_open_zones">Zonas abiertas:</string>
+    <string name= "log_sonorous_panic">Pánico sonoro activado</string>
+    <string name= "log_silent_panic">Pánico silencioso activado</string>
+    <string name= "log_fire">Pánico de incendio activado</string>
+
+
+
+
+
+
+
+
+
+</resources>

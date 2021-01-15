@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipeStatus"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:textAllCaps ="true"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvStatus"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/tvStatusInfo"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/tvLastUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/swipeStatus">
+
+
+            <Button
+                android:id="@+id/btDisablePanic"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="50dp"
+                android:text="@string/str_disable_panic"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <Button
+                android:id="@+id/btArmado"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="80dp"
+                android:layout_marginLeft="80dp"
+                android:text="@string/str_btArmado"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/btDisablePanic" />
+
+            <Button
+                android:id="@+id/btDesarmado"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="80dp"
+                android:layout_marginRight="80dp"
+                android:layout_toRightOf="@id/btArmado"
+                android:text="@string/str_btDesarmado"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/btDisablePanic" />
+
+
+            <Button
+                android:id="@+id/btDeploy"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="100dp"
+                android:text="@string/str_btShow"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/btDisablePanic" />
+
+            <GridLayout
+                android:id="@+id/gridLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:rowCount="2"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btDeploy">
+
+                <Button
+                    android:id="@+id/btPgm1"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:text="@string/str_btPgm1" />
+
+
+                <Button
+                    android:id="@+id/btPgm2"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:text="@string/str_btPgm2" />
+
+
+
+            </GridLayout>
+
+
+            <Button
+                android:id="@+id/btByPass"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_columnSpan="2"
+                android:text="@string/str_btByPass"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/gridLayout"/>
+
+
+            <Button
+                android:id="@+id/btFire"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/btArmado"
+                android:layout_centerInParent="true"
+                android:text="@string/str_bt_fire"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/btByPass" />
+
+
+            <Button
+                android:id="@+id/btSonorousPanic"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/btArmado"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginStart="80dp"
+                android:text="@string/str_btSonorousPanic"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/btFire" />
+
+            <Button
+                android:id="@+id/btSilentPanic"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/btArmado"
+                android:layout_marginTop="10dp"
+                android:text="@string/str_btSilentPanic"
+                android:layout_marginEnd="80dp"
+                android:layout_marginRight="80dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.205"
+                app:layout_constraintTop_toBottomOf="@id/btFire" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

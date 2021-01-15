@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cv_cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?selectableItemBackground"
+    >
+
+    <TableLayout
+        android:id="@+id/rl_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1,3"
+        android:background="@color/profile">
+
+
+        <TableRow>
+
+            <ImageView
+                android:src="@drawable/location"
+                android:layout_gravity="left" />
+
+            <TextView
+                android:id="@+id/perfilName"
+                android:text="Probando"
+                android:textSize="20dp"
+                android:layout_gravity="left"
+                android:layout_span="2"/>
+            <ImageView android:id="@+id/ivEditProfile"
+                       android:src="@drawable/edit"
+                       android:layout_gravity="right"/>
+
+        </TableRow>
+        <TableRow>
+
+                <ImageView android:src="@drawable/phone"
+                           android:layout_gravity="left"/>
+                <TextView android:id="@+id/teamId"
+                          android:text="Aca va el id del equipo"
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                    android:layout_gravity="left"/>
+
+            <ImageView android:src="@drawable/alarm"/>
+            <TextView  android:id="@+id/alarmModel"
+                       android:text="Aca va el modelo" />
+        </TableRow>
+
+
+        <TableRow>
+            <TextView android:id="@+id/createDate"
+                      android:text="Aca va la fecha de creacion"
+                      android:layout_gravity="left"
+                      android:layout_span="4"/>
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+
+
+
+</androidx.cardview.widget.CardView>

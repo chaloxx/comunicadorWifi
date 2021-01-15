@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="addProfile">#FFFFFF</color>
+    <color name="addProfBorder">#FFFF00</color>
+    <color name="addProfBackground">#0000FF</color>
+    <color name="profile">#796A6A</color>
+    <color name="message">#7CFC00</color>
+    <color name= "byPassItem_selected">#ffa500</color>
+    <color name= "byPassItem_unselected">#FFFFFF</color>
+    <color name="primaryDark">#03DAC5</color>
+</resources>

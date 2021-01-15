@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height">40dp</dimen>
+    <dimen name="width">200dp</dimen>
+    <dimen name="icon_dim">40dp</dimen>
+    <dimen name="left_margin">30dp</dimen>
+    <dimen name="width2">100</dimen>
+    <dimen name="home_height">40</dimen>
+</resources>
